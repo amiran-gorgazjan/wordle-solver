@@ -1,0 +1,11 @@
+$columns: 5;
+$rows: 6;
+$cellSize: 60px;
+
+.Grid {
+    width: $cellSize * $columns;
+    height: $cellSize * $rows;
+    display: grid;
+    grid-template-columns: repeat($columns, calc(100% / $columns));
+    grid-template-rows: repeat($rows, calc(100% / $rows));
+}
