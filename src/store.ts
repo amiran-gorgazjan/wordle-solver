@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { gridSlice } from 'slices/gridSlice';
+import { gridSlice } from 'store/grid/gridSlice';
 
 const store = configureStore({
     reducer: {

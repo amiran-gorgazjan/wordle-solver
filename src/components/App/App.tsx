@@ -1,6 +1,6 @@
 import _ from './App.module.scss';
 import Grid from 'components/Grid/Grid';
-import Solution from 'components/Solution/Solution';
+import SolutionList from 'components/Solution/SolutionList';
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
           <Grid />
         </div>
         <div className={_.SolutionWrapper}>
-          <h2>Solution</h2>
-          <Solution />
+          <h2 className={_.SolutionHeader}>Solutions</h2>
+          <SolutionList />
         </div>
       </section>
     </div>
