@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App/App';
 import store from './store';
-import { addCharacter } from './slices/gridSlice';
+import { addCharacter } from './store/grid/gridSlice';
 import { Provider } from 'react-redux';
 import reportWebVitals from './reportWebVitals';
 

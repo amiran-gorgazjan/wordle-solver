@@ -1,7 +1,7 @@
 import { MouseEventHandler } from "react";
 import { useDispatch } from "react-redux";
 import classNames from 'classnames';
-import { Cell, updateCell, cellStates } from 'slices/gridSlice';
+import { Cell, updateCell, cellStates } from 'store/grid/gridSlice';
 import _ from './Cell.module.scss';
 
 let cx = classNames.bind(_);
